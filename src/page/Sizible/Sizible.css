@@ -1,0 +1,21 @@
+.sizible_comp {
+  margin: 10px 0;
+  padding-left: 16px;
+}
+.outer_div_cont .left {
+  position: relative;
+}
+.outer_div_cont {
+  /* position: relative; */
+  display: flex;
+}
+.outer_div_cont .left {
+  width: 54px;
+}
+.outer_div_cont .right {
+  width:100%; 
+  padding: 32px;
+  background: #f099e1;
+  z-index: 2;
+  position: relative;
+}

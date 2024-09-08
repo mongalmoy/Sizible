@@ -1,0 +1,28 @@
+.customer_input_field {
+  background-color: #f7f7f7;
+  width: 80px;
+  padding: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.customer_input_field.active {
+  background-color: var(--main-pink-bg);
+}
+.customer_input_field select, .customer_input_field select:focus {
+  width: 100%;
+    border-radius: 3px;
+    border: 1px solid #d2d2d2;
+    padding: 4px;
+    cursor: pointer;
+  }
+.customer_input_field label {
+  font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.customer_input_field.focus label {
+  color: #bf225c;
+}

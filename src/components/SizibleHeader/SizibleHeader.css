@@ -1,0 +1,38 @@
+.sizible_header {
+  position: relative;
+  right: 0;
+}
+.sizible_header nav {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-bottom: 1px; */
+}
+.sizible_header nav a {
+  padding: 10px 16px;
+  width: 160px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+  /* display: flex; */
+  text-align: center;
+  background: #f7e6f4;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  /* margin-left: 1px; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c7bdc5;
+}
+.sizible_header nav a:first-child {
+  width: 50px;
+  color: #f099e1;
+}
+.sizible_header nav a:first-child svg {
+  font-size: 28px;
+}
+.sizible_header nav a:nth-child(2) {
+  background-color: #fff;
+  border-bottom: 0;
+}
