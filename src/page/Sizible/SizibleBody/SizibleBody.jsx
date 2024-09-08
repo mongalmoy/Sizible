@@ -5,17 +5,17 @@ import sizibleRefBody from "../../../assets/img/sizible_reference_body.jpg";
 import CustomerInput from "../../../components/CustomerInput/CustomerInput";
 
 const SizibleBody = () => {
-  const bodyArr = [
-    { className: "neck" },
-    { className: "shoulder" },
-    { className: "chest" },
-    { className: "arms" },
-    { className: "waist" },
-    { className: "hips" },
-    { className: "leg" },
-    { className: "shoe" },
-    { className: "height" },
-  ];
+  // const bodyArr = [
+  //   { className: "neck" },
+  //   { className: "shoulder" },
+  //   { className: "chest" },
+  //   { className: "arms" },
+  //   { className: "waist" },
+  //   { className: "hips" },
+  //   { className: "leg" },
+  //   { className: "shoe" },
+  //   { className: "height" },
+  // ];
   const inputListObj = {
     leftInputs: [
       { name: "Neck", active: false },
